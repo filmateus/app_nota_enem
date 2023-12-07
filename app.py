@@ -13,7 +13,6 @@ warnings.filterwarnings("ignore")
 from PIL import Image
 import os
 
-pip install joblib
 import joblib
 
 
