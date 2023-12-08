@@ -33,6 +33,7 @@ def Input_Output():
     st.image("https://conteudo.imguol.com.br/c/noticias/b6/2020/12/08/ilustra-enem-seriado-1607450891464_v2_900x506.jpg.webp", width=600)
     
     st.markdown("You are using Streamlit...",unsafe_allow_html=True)
+    st.markdown("Este app é um exemplo de deploy de um modelo de ML para classificação baseado na notas do ENEM",unsafe_allow_html=True )
     NU_NOTA_CH  = st.text_input("Digite a nota de Humanidades" , "")
     NU_NOTA_CN  = st.text_input("Digite a nota de Naturezas" , "")
     NU_NOTA_MT  = st.text_input("Digite a nota de Matemática" , "")
