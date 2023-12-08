@@ -11,6 +11,7 @@ import pickle
 import warnings
 warnings.filterwarnings("ignore")
 from PIL import Image
+import sklearn
 
 # import os
 # import joblib
