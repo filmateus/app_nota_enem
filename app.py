@@ -30,10 +30,10 @@ def predict_type_school(NU_NOTA_CH, NU_NOTA_CN, NU_NOTA_MT, NU_NOTA_LC, NU_NOTA_
 
 def Input_Output():
     st.title("Tipo de Escola baseado na nota do ENEM")
-    st.image("https://conteudo.imguol.com.br/c/noticias/b6/2020/12/08/ilustra-enem-seriado-1607450891464_v2_900x506.jpg.webp", width=600)
+    st.image("https://conteudo.imguol.com.br/c/noticias/b6/2020/12/08/ilustra-enem-seriado-1607450891464_v2_900x506.jpg.webp", width=700)
     
     st.markdown("You are using Streamlit...",unsafe_allow_html=True)
-    st.markdown("Este app é um exemplo de deploy de um modelo de ML para classificação baseado na notas do ENEM",unsafe_allow_html=True )
+    st.markdown("Este app é um exemplo de deploy de um modelo de ML para classificação do tipode escola baseado na notas do ENEM",unsafe_allow_html=True )
     NU_NOTA_CH  = st.text_input("Digite a nota de Humanidades" , "")
     NU_NOTA_CN  = st.text_input("Digite a nota de Naturezas" , "")
     NU_NOTA_MT  = st.text_input("Digite a nota de Matemática" , "")
