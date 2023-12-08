@@ -11,9 +11,9 @@ import pickle
 import warnings
 warnings.filterwarnings("ignore")
 from PIL import Image
-import os
 
-import joblib
+# import os
+# import joblib
 
 
 pickle_in = open("Naive Bayes_classifier.pkl","rb")
