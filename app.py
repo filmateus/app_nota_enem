@@ -4,14 +4,11 @@ Created on Sun Jan  9 18:31:28 2022
 @author: p.santosh.dandale
 """
 
-import pandas as pd
 import streamlit as st
-import numpy as np
 import pickle
 import warnings
 warnings.filterwarnings("ignore")
 from PIL import Image
-import sklearn
 
 # import os
 # import joblib
