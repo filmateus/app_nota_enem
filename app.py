@@ -16,10 +16,10 @@ import os
 import joblib
 
 
-# pickle_in = open("Naive Bayes_classifier.pkl","rb")
-# classifier = pickle.load(pickle_in)
+pickle_in = open("Naive Bayes_classifier.pkl","rb")
+classifier = pickle.load(pickle_in)
 
-classifier = joblib.load("alg.joblib")
+# classifier = joblib.load("alg.joblib")
 
 def predict_type_school(NU_NOTA_CH, NU_NOTA_CN, NU_NOTA_MT, NU_NOTA_LC, NU_NOTA_REDACAO):
     prediction = classifier.predict([[NU_NOTA_CH, NU_NOTA_CN, NU_NOTA_MT, NU_NOTA_LC, NU_NOTA_REDACAO]])
